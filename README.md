@@ -27,14 +27,13 @@ pip3 install flask-cors
 ```
 
 
-API Key: 
-Mac: 
+API Key Mac: 
 ```
-export REPLICATE_API_TOKEN="key"
+export REPLICATE_API_TOKEN=[key]
 ```
 On Windows: 
 ```
-set REPLICATE_API_TOKEN="key"
+set REPLICATE_API_TOKEN=[key]
 ```
 
 
