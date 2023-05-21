@@ -1,4 +1,5 @@
 import replicate
+import os
 from flask import Flask, jsonify
 from flask_cors import CORS
 
@@ -15,6 +16,7 @@ def ping_pong():
     input={"image": "../my-photo.png",
         "task": "visual_question_answering",
         "question": "What item is this?"})
+    os.remove("../my-photo.png")
     return output
 
 if __name__ == '__main__':
