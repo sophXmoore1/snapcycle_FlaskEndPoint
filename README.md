@@ -11,12 +11,30 @@ source env/Scripts/activate
 ```
 
 ## Project setup
+
+Install flask: 
 ```
-install flask
-install replicate
-install flask_cors
-on mac: export REPLICATE_API_TOKEN="key"
-on windows: set REPLICATE_API_TOKEN="key"
+pip3 install Flask
+```
+Install replicate: 
+```
+pip3 install replicate
+```
+
+Install flask_cors:
+```
+pip3 install flask-cors
+```
+
+
+API Key: 
+Mac: 
+```
+export REPLICATE_API_TOKEN="key"
+```
+On Windows: 
+```
+set REPLICATE_API_TOKEN="key"
 ```
 
 
